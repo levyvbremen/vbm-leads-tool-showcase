@@ -62,21 +62,25 @@ Each agent is a small Python module wrapping a Claude prompt and a set of tools 
 - WhatsApp Business API for outreach
 - SMTP for email
 
-## Walkthrough
+## Screenshots
 
-A Scout run finding new candidate businesses:
+Marketing landing page that fronts the platform:
 
-![Scout run](./demo/scout-run.gif)
+![Landing](./screenshots/landing.png)
 
-The Mailer queueing a personalized outreach draft for approval:
-
-![Mailer queue](./demo/mailer-queue.gif)
-
-The dashboard overview:
+Command Center dashboard with agent status, daily counts, and queue:
 
 ![Dashboard](./screenshots/dashboard.png)
 
-_Replace these paths with your own GIFs and screenshots in `demo/` and `screenshots/`._
+Agent management view with all six agents (Scout, Radar, Mailer, KPN Email, Copywriter, and custom agents):
+
+![Agents](./screenshots/agents.png)
+
+Lead Finder for kicking off a Scout run by sector and region:
+
+![Lead Finder](./screenshots/zoeken.png)
+
+_Showing the UI in an empty/idle state. Lead detail, mailbox, and approval queue views are kept private to protect client data._
 
 ## Code excerpts
 
